@@ -1,8 +1,8 @@
-# my-app
+# 碳博会
 
-An Electron application with Vue and TypeScript
+## electron-vite,vue3,typeScript
 
-## Recommended IDE Setup
+## setup
 
 - [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin)
 
@@ -11,24 +11,24 @@ An Electron application with Vue and TypeScript
 ### Install
 
 ```bash
-$ npm install
+$ yarn
 ```
 
 ### Development
 
 ```bash
-$ npm run dev
+$ yarn dev
 ```
 
 ### Build
 
 ```bash
 # For windows
-$ npm run build:win
+$ yarn run build:win
 
 # For macOS
-$ npm run build:mac
+$ yarn run build:mac
 
 # For Linux
-$ npm run build:linux
+$ yarn run build:linux
 ```
