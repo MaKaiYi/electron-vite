@@ -10,7 +10,7 @@
       :navigation="true"
     >
       <swiper-slide v-for="(item, index) of slides" :key="index">
-        <img class="img" :src="item" @click="toDetail" />
+        <img class="img" :src="item" @click="toDetail(index)" />
       </swiper-slide>
     </swiper>
     <swiper
@@ -57,8 +57,9 @@ const setThumbsSwiper = (swiper: any) => {
   thumbsSwiper.value = swiper
 }
 const router = useRouter()
-const toDetail = () => {
-  router.push('/detail')
+const toDetail = (index: number) => {
+  const num = (index += 1)
+  router.push('/detail?index=' + num)
 }
 </script>
 
